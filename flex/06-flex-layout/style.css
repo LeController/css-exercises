@@ -7,6 +7,49 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 40px;
+}
+
+li {
+  display:inline;
+}
+
+a, a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.right-links, .left-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-right: 40px;
+  background-color: rgba(179, 179, 179, 0.515);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 img {
   width: 600px;
 }
@@ -16,6 +59,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px;
 }
 
 input {
